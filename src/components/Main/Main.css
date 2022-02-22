@@ -24,6 +24,7 @@
     color: #fff;
     background-color: #191b20;
     border-radius: 12px;
+    text-align: center;
 }
 .main-detail{
     width: 687px;
@@ -31,6 +32,7 @@
     /* display: flex;
     flex-direction: column;
     justify-content: center; */
+    padding: 5px 25px;
     background-color: #abe8ff;
     border-radius: 10px;
 }
@@ -40,10 +42,97 @@
     font-weight: 500;
     line-height: 26px;
     color: #2b2557;
+    margin-bottom: 0px;
 }
 .main-detail button{
     width: 86px;
     height: 24px;
+    color: #2b2557;
+    font-size: 12px;
+    font-weight: 600;
+    /* line-height: 24px;
+    text-align: center; */
     background-color: #fff;
+    border: 0;
     border-radius: 6px;
+}
+.main-reward{
+    width: 700px;
+    /* height: 165px; */
+    color: #fff;
+    background-color: #191b20;
+    border-radius: 24px;
+    padding: 25px;
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-reward div h6{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 0px;
+}
+.main-reward div h3{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 48px;
+    margin: 0px;
+}
+.main-reward div span{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 17px;
+    margin-right: 6px;
+    padding: 6px 8px;
+    background-color: #353945;
+    border-radius: 11px;
+}
+.main-reward button{
+    width: 142px;
+    height: 36px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    background-color: #3772ff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.main-fee{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main-fee div{
+    width: 340px;
+    height: 140px;
+    padding: 10px 20px;
+    background-color: #191b20;
+    border-radius: 16px;
+}
+.main-fee div h4{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #fff;
+    margin: 0px;
+}
+.main-fee div p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #808191;
+}
+.main-fee div span{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #fff;
+    padding: 20px 15px;
+    margin-top: 5px;
+    background-color: #242731;
+    border-radius: 8px;
 }

@@ -12,6 +12,28 @@ const Main = () => {
                 <p>Lorium Ipsum is simply dummy text of the printing and typesetting industry</p>
                 <button>Tutorial</button>
             </div>
+            <div className='main-reward'>
+                <div>
+                    <h6>Your Rewards</h6>
+                    <h3>$0.26231428</h3>
+                    <span>$40 AVAX</span>
+                    <span>$10 BNB</span>
+                    <span>$210 BTC</span>
+                </div>
+                <button>Custom link</button>
+            </div>
+            <div className='main-fee'>
+                <div>
+                    <h4>12.5% of fee</h4>
+                    <p>Your referral link for xyz</p>
+                    <span>https://unityexchange.design</span>
+                </div>
+                <div>
+                    <h4>12.5% of fee</h4>
+                    <p>Your referral link for xyz</p>
+                    <span>https://unityexchange.design</span>
+                </div>
+            </div>
         </div>
     );
 };
