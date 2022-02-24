@@ -1,0 +1,16 @@
+.api-data{
+    height: 62px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    background-color: #242731;
+    border-radius: 5px;
+}
+
+.api-data p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+}

@@ -1,0 +1,63 @@
+
+.right-top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0px;
+}
+.right-top button{
+    height: 39px;
+    width: 146px;
+    color: #fff;
+    background-color: #353945;
+    border-radius: 10px;
+}
+.right-top span{
+    color: #fff;
+    border: 1px solid #3772ff;
+    border-radius: 8px;
+    padding: 5px 2px;
+}
+.right-side h6{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 25px;
+}
+.right-side p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 48px;
+}
+.right-side .input-box{
+    
+    height: 50px;
+    background-color: #242731;
+    border-radius: 12px;
+    text-align: left;
+}
+ 
+
+.bottom-button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 0;
+}
+.custom-link{
+    height: 36px;
+    color: #fff;
+    background-color: #3772ff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.cancel-btn{
+    height: 36px;
+    color: #fff;
+    background-color: #000;
+    padding: 3px 17px;
+    border: 1px solid #242731;
+    border-radius: 12px;
+}

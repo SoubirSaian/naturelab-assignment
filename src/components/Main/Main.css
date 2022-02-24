@@ -1,8 +1,8 @@
 
 .main-part{
     width: 60%;
-    height: 100vh;
-    background-color: #000000;
+    height: 100%;
+    /* background-color: #000000; */
 }
 
 .title-bar{
@@ -118,21 +118,53 @@
     font-weight: 500;
     line-height: 24px;
     color: #fff;
-    margin: 0px;
+    /* margin: 0px; */
 }
 .main-fee div p{
     font-size: 16px;
     font-weight: 500;
     line-height: 16px;
     color: #808191;
+    padding-bottom: 10px;
 }
-.main-fee div span{
-    font-size: 14px;
+.main-fee div input{
+    /* font-size: 14px;
+    font-weight: 600;
+    line-height: 24px; */
+    color: #fff;
+    padding: 10px 15px;
+    /* margin-top: 15px; */
+    background-color: #242731;
+    border: 0;
+    border-radius: 8px;
+}
+
+.api-tab{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: #fff;
+    margin: 15px 0;
+}
+.api-tab p{
+    margin-right: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18px;
+}
+
+.api-title{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    height: 40px;
+    background-color: #191b20;
+    border-radius: 8px;
+}
+.api-title p{
+    color: #808191;
+    font-size: 10px;
     font-weight: 600;
     line-height: 24px;
-    color: #fff;
-    padding: 20px 15px;
-    margin-top: 5px;
-    background-color: #242731;
-    border-radius: 8px;
+    padding-top: 8px;
 }

@@ -1,7 +1,17 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import ApiDataDisplay from '../ApiDataDisplay/ApiDataDisplay';
 import './Main.css';
 
 const Main = () => {
+
+    const [cryptoCurrencies,setCryptoCurrencies] = useState([]);
+
+    useEffect(()=>{
+        fetch('https://raw.githubusercontent.com/akshita151199/APIs/main/data')
+        .then(res => res.json())
+        .then(data => setCryptoCurrencies(data.data));
+    },[]);
+
     return (
         <div className='main-part'>
             <div className='title-bar'>
@@ -26,12 +36,29 @@ const Main = () => {
                 <div>
                     <h4>12.5% of fee</h4>
                     <p>Your referral link for xyz</p>
-                    <span>https://unityexchange.design</span>
+                    <input type="text" placeholder='https://unityexchange.design'/>
                 </div>
                 <div>
                     <h4>12.5% of fee</h4>
                     <p>Your referral link for xyz</p>
-                    <span>https://unityexchange.design</span>
+                    <input type="text" placeholder='https://unityexchange.design'/>
+                </div>
+            </div>
+            <div>
+                <div className='api-tab'>
+                    <p style={{'borderBottom' : '2px solid #3772ff','paddingBottom' : '5px'}}>First Tab</p>
+                    <p style={{'color' : '#808191'}}>Second Tab</p>
+                </div>
+                <div className='api-title'>
+                    <p>ASSET</p>
+                    <p>AMOUNT</p>
+                    <p>USER ACCOUNT</p>
+                    <p>REFERRAL EARNING</p>
+                </div>
+                <div>
+                    {
+                        cryptoCurrencies.map(currency => <ApiDataDisplay key={currency.user} currencyName={currency}></ApiDataDisplay>)
+                    }
                 </div>
             </div>
         </div>
