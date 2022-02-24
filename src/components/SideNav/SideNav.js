@@ -4,7 +4,7 @@ import './SideNav.css';
 const SideNav = () => {
     return (
         <div className='side-nav'>
-            <h3 className='text-center'>Name</h3>
+            <h3 className='text-center mt-4'>Name</h3>
             <ul>
                 <li><span><i className="fa-solid fa-house-user"></i></span> Home</li>
                 <li>Section 1</li>
